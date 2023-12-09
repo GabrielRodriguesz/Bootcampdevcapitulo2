@@ -1,0 +1,32 @@
+body{
+    background-color: #CCCCCC;
+    color: white;
+
+}
+
+h2{
+    color: #FECD23;
+}
+
+.conteiner{
+    background: linear-gradient(to bottom, #230E26, #641F70);
+}
+
+form{
+    background: linear-gradient(to top, #230E26, #641F70);
+}
+
+.categorias{
+    background: linear-gradient(to top, #342987, #2637DB);
+    color: white;
+}
+
+.fundo{
+    background: linear-gradient(to top, #72CBFF, #3F60EF);
+}
+
+
+button{
+    color: white;
+    background-color: #1D0C20;
+}
