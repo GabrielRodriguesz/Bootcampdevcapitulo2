@@ -69,3 +69,42 @@ button{
     border: 0px;
     border-radius: 4px;
 }
+
+@media only screen and (max-width: 950px){
+    body{
+        font-size: 16px;
+    }
+    
+    .conteiner{
+        width: 90%;
+    }
+
+    form{
+        width: 95%;
+        margin: auto;
+    }
+    
+    .categorias{
+        width: 33%;
+    }
+    
+    input{
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (max-width: 650px){
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .categorias{
+        width: 90%;
+    }
+    object{
+        height: 60%;
+    }
+
+}
