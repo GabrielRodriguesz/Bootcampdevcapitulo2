@@ -1,32 +1,67 @@
 body{
     background-color: #CCCCCC;
     color: white;
-
 }
 
-h2{
-    color: #FECD23;
-}
 
 .conteiner{
     background: linear-gradient(to bottom, #230E26, #641F70);
+    width: 900px;
+    margin:  50px auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
 }
 
 form{
     background: linear-gradient(to top, #230E26, #641F70);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+input{
+    margin: 15px auto;
+    width: 60%;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;   
+}
+
+.flex{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .categorias{
     background: linear-gradient(to top, #342987, #2637DB);
+    height: 350px;
+    width: 225px;
+    display: block;
+    margin: auto;
+    margin-bottom: 14px;
     color: white;
+    border-radius: 8px;
 }
 
 .fundo{
     background: linear-gradient(to top, #72CBFF, #3F60EF);
+    width: 90%;
+    height: 92%;
+    margin: auto;
+    border-radius: 3px;
 }
 
+object{
+    width: 90%;
+    margin-bottom: 20px;
+}
 
 button{
+    height: 45px;
+    width: 90px;
     color: white;
     background-color: #1D0C20;
+    border: 0px;
+    border-radius: 4px;
 }
