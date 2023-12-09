@@ -1,8 +1,12 @@
 body{
     background-color: #CCCCCC;
     color: white;
+    font-family: sans-serif;
 }
 
+h2{
+    color: #FECD23;
+}
 
 .conteiner{
     background: linear-gradient(to bottom, #230E26, #641F70);
